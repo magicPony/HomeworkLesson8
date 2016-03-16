@@ -12,8 +12,8 @@ public class DataModel implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
-        this.phoneNumber = phoneNumber;
         this.age = age;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getFirstName() {

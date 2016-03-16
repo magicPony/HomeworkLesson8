@@ -49,6 +49,8 @@ public class CreatePersonActivity extends AppCompatActivity {
                     return;
                 }
 
+                firstName = etFirstName.getText().toString();
+
                 if (!TextUtils.isEmpty(etLastName.getText())) {
                     lastName = etLastName.getText().toString();
                 }

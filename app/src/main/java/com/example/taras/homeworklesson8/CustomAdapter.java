@@ -32,8 +32,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     public void onBindViewHolder(MyViewHolder holder, int listPosition) {
         TextView tvNameField;
         CardView cardView;
+
         tvNameField = holder.tvNameField;
         cardView = holder.cardView;
+
         tvNameField.setText(Data.getFirstName(listPosition));
         cardView.setCardBackgroundColor(Data.get(listPosition).isFilled() ? Color.YELLOW : Color.RED);
     }
