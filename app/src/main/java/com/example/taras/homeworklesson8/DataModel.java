@@ -37,19 +37,19 @@ public class DataModel implements Serializable {
     }
 
     public boolean isFilled() {
-        if (lastName == NA) {
+        if (lastName.equals(NA)) {
             return false;
         }
 
-        if (gender == NA) {
+        if (gender.equals(NA)) {
             return false;
         }
 
-        if (age == NA) {
+        if (age.equals(NA)) {
             return false;
         }
 
-        if (phoneNumber == NA) {
+        if (phoneNumber.equals(NA)) {
             return false;
         }
         
