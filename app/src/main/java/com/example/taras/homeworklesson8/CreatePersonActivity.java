@@ -50,11 +50,11 @@ public class CreatePersonActivity extends AppCompatActivity {
                 }
 
                 if (!TextUtils.isEmpty(etLastName.getText())) {
-                    firstName = etFirstName.getText().toString();
+                    lastName = etLastName.getText().toString();
                 }
 
                 if (!TextUtils.isEmpty(etGender.getText())) {
-                    lastName = etLastName.getText().toString();
+                    gender = etGender.getText().toString();
                 }
 
                 if (!TextUtils.isEmpty(etAge.getText())) {
