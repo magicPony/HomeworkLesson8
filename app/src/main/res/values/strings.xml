@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework Lesson 8</string>
+    <string name="NA">N/A</string>
+    <string name="empty_field_message">Name field should be filled</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="phone_number">Phone number</string>
+</resources>

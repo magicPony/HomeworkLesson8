@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tv_padding_ASP">7dp</dimen>
+    <dimen name="et_padding_ACP">10dp</dimen>
+    <dimen name="et_margin_top_ACP">15dp</dimen>
+    <dimen name="tv_invisible_margin_top">5dp</dimen>
+    <dimen name="cv_corner_radius_ASP">10dp</dimen>
+    <dimen name="cv_elevation_ASP">5dp</dimen>
+</resources>
